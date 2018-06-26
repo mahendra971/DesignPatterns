@@ -8,6 +8,8 @@ public class DbSingleTonDemo {
         System.out.println(ob.hashCode());
         DBSingleTon ob1 = DBSingleTon.getIntstance();
         System.out.println(ob1.hashCode());
+        
+        System.out.println("Testing Git");
 
     }
 }
